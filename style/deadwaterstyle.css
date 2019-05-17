@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+#header {
+	height: 100px;
+	width: 1000px;
+}
+
+#container {
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	height: 700px;
+	width: 1000px;
+	background-color: #030038;
+}
+
+#content {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: x-large;
+	font-style: italic;
+	font-weight: bold;
+	color: #FFFFFF;
+	height: 316px;
+	width: 700px;
+	padding-left: 300px;
+	padding-top: 184px;
+}
+#footer {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: x-small;
+	font-style: normal;
+	line-height: normal;
+	font-weight: lighter;
+	font-variant: normal;
+	text-transform: none;
+	color: #FFFFFF;
+	text-align: right;
+	height: 100px;
+	width: 980px;
+	padding-left: 0px;
+	padding-right: 20px;
+}
+.creation {
+	color: #FFFBAE;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	font-size: xx-large;
+}

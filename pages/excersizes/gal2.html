@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta content="charset=utf-8">
+	<title>FlexSlider 2</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+  <!-- Syntax Highlighter -->
+  <link href="../scripting/gallery/woocommerce-FlexSlider-0690ec2/demo/css/shCore.css" rel="stylesheet" type="text/css" />
+  <link href="../scripting/gallery/woocommerce-FlexSlider-0690ec2/demo/css/shThemeDefault.css" rel="stylesheet" type="text/css" />
+  <!-- Demo CSS -->
+	<link rel="stylesheet" href="../scripting/gallery/woocommerce-FlexSlider-0690ec2/demo/js/modernizr.js" type="text/css" media="screen" />
+	<link rel="stylesheet" href="../scripting/gallery/woocommerce-FlexSlider-0690ec2/flexslider.css" type="text/css" media="screen" />
+
+	<!-- Modernizr -->
+  <script src="file:///Macintosh HD/Users/quint/Desktop/woocommerce-FlexSlider-0690ec2/demo/js/modernizr.js"></script>
+
+</head>
+<body class="loading">
+
+  <div id="container" class="cf">
+
+	<div id="main" role="main">
+      <section class="slider">
+        <div class="flexslider carousel">
+          <ul class="slides">
+           	<li>
+  	    	    <img src="../../images/excersizes/jquery_fun/aboutTitle.jpg" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="../../images/excersizes/jquery_fun/blue-1562021_1920.png" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="../../images/excersizes/jquery_fun/fuzzy-1800136_1920.jpg" />
+  	    		</li>
+          </ul>
+        </div>
+      </section>
+      
+    </div>
+
+  </div>
+
+  <!-- jQuery -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+
+  <!-- FlexSlider -->
+  <script defer src="file:///Macintosh HD/Users/quint/Desktop/woocommerce-FlexSlider-0690ec2/jquery.flexslider.js"></script>
+
+  <script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        animationLoop: false,
+        itemWidth: 210,
+        itemMargin: 5,
+        pausePlay: true,
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
+
+  <!-- Syntax Highlighter -->
+  <script type="text/javascript" src="file:///Macintosh HD/Users/quint/Desktop/woocommerce-FlexSlider-0690ec2/demo/js/shCore.js"></script>
+  <script type="text/javascript" src="file:///Macintosh HD/Users/quint/Desktop/woocommerce-FlexSlider-0690ec2/demo/js/shBrushXml.js"></script>
+  <script type="text/javascript" src="file:///Macintosh HD/Users/quint/Desktop/woocommerce-FlexSlider-0690ec2/demo/js/shBrushJScript.js"></script>
+
+  <!-- Optional FlexSlider Additions -->
+  <script src="file:///Macintosh HD/Users/quint/Desktop/woocommerce-FlexSlider-0690ec2/demo/js/jquery.easing.js"></script>
+  <script src="file:///Macintosh HD/Users/quint/Desktop/woocommerce-FlexSlider-0690ec2/demo/js/jquery.mousewheel.js"></script>
+  <script defer src="file:///Macintosh HD/Users/quint/Desktop/woocommerce-FlexSlider-0690ec2/demo/js/demo.js"></script>
+
+</body>
+</html>

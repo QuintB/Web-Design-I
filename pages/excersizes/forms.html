@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Good Form</title>
+</head>
+
+<body>
+
+<form>
+
+  <p>Student ID:
+  <input type="text" required maxlength="7">
+  </p>
+  <p>Email:
+    <input type="email" required pattern="@." maxlength="50">
+  </p>
+  <p>Password:
+    <input type="password" required pattern="[A-Za-z][0-9]" maxlength="30">
+  </p>
+  <p>URL:
+    <input type="url" pattern="..">
+  </p>
+  <p>
+    <label for="tel">Cell Phone:</label>
+    <input name="tel" type="tel" id="tel" placeholder="just numbers pls" maxlength="11">
+  </p>
+  <p>
+    <label for="search">Search:</label>
+    <input name="search" type="search" id="search" value="Type Here">
+  </p>
+  <p>
+    <label for="number">Number:</label>
+    <input name="number" type="number" id="number" max="5" min="1">
+  </p>
+  <p>Range:
+    <input type="range" max="100" min="10">
+  </p>
+  <p>
+    <label for="color">Color:</label>
+    <input name="color" type="color" id="color" value="red">
+  </p>
+  <p>
+    <label for="date">Date:</label>
+    <input type="date" name="date" id="date">
+  </p>
+  <p>
+    <label for="datetime">DateTime:</label>
+    <input type="datetime" name="datetime" id="datetime">
+  </p>
+  <p>
+    <label for="datetime-local">DateTime-Local:</label>
+    <input type="datetime-local" name="datetime-local" id="datetime-local">
+  </p>
+  <p><label>Yo hit it up with those comments son</label>&nbsp;</p>
+  
+  <textarea cols="100" rows="10" maxlength="200">hey no cursing plz
+  </textarea>
+  
+  <fieldset>my fave cereal
+  
+  
+    <p>
+      <label>
+        <input type="radio" name="RadioGroup1" value="Rice Crispies" id="RadioGroup1_0">
+        Rice Crispies</label>
+      <br>
+      <label>
+        <input type="radio" name="RadioGroup1" value="Frosted Flakes" id="RadioGroup1_1">
+        Frosted Flakes</label>
+      <br>
+      <label>
+        <input type="radio" name="RadioGroup1" value="Captain Crunch" id="RadioGroup1_2">
+        Captain Crunch</label>
+      <br>
+      <label>
+        <input type="radio" name="RadioGroup1" value="Lucky Charms" id="RadioGroup1_3">
+        Lucky Charms</label>
+      <br>
+    </p>
+  </fieldset>
+  
+  <label>favorite cartoon character</label>
+  
+  <p>
+    <label>
+      <input type="checkbox" name="CheckboxGroup1" value="mickey mouse" id="CheckboxGroup1_0">
+      mickey mouse</label>
+    <br>
+    <label>
+      <input type="checkbox" name="CheckboxGroup1" value="bob the builder" id="CheckboxGroup1_1">
+      bob the builder</label>
+    <br>
+    <label>
+      <input type="checkbox" name="CheckboxGroup1" value="peter griffin" id="CheckboxGroup1_2">
+      peter griffin</label>
+    <br>
+    <label>
+      <input type="checkbox" name="CheckboxGroup1" value="spongebob" id="CheckboxGroup1_3">
+      spongebob</label>
+    <br>
+  </p>
+  
+  <p>File:
+  <input type="file">
+    <br>
+    <input type="image" formaction="../../images/online_social_media_facebook-256.png">
+    
+  </p>
+  <p>
+    <label for="select">Select:</label>
+    <select name="select" id="select">
+      <option value="abc">abc</option>
+      <option value="date">date</option>
+      <option value="rating">rating</option>
+    </select>
+  </p>
+  <p>
+    <input type="button" name="button" id="button" value="email Reciept">
+  </p>
+  <p>
+    <input name="submit" type="submit" id="submit" formaction="emailto.hcb2726@email.vccs.edu" formenctype="application/x-www-form-urlencoded" formmethod="POST" value="Submit">
+  </p>
+  <p>
+    <input type="reset" name="reset" id="reset" value="Reset">
+  </p>
+</form>
+
+</body>
+</html>

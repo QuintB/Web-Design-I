@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.bodyfont {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-variant: normal;
+	text-align: center;
+}
+
+h1 {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	text-align: center;
+	color: white;
+}
+
+body {
+	background-image: linear-gradient(white, rgba(158, 158, 158, 1.00));
+	width: 1700px;
+	height: 849px;
+	color: #363636;
+	text-align: center;
+}

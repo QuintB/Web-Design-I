@@ -1,0 +1,114 @@
+@charset "UTF-8";
+#container {
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+	border-right: thin solid #B8945C;
+	border-bottom: thin solid #B8945C;
+	border-left: thin solid #B8945C;
+	background-color: #FFFFFF;
+	-webkit-box-shadow: 3px 3px 3px 3px #B8945C;
+	box-shadow: 3px 3px 3px 3px #B8945C;
+}
+
+#header {
+	background-image: url(../../images/excersizes/layout2/banner.jpg);
+	height: 130px;
+}
+
+#navbar {
+	float: right;
+	width: 700px;
+	margin: 0px;
+	clear: both;
+	top: 0px;
+	text-align: right;
+	padding-right: 25px;
+	background-color: #009900;
+}
+
+#aside {
+	float: left;
+	width: 180px;
+	padding-left: 5px;
+	margin-left: 10px;
+	margin-top: 40px;
+}
+
+#main {
+	float: right;
+	width: 700px;
+	padding-left: 10px;
+	margin-right: 20px;
+}
+
+#footer {
+	clear: both;
+	text-align: center;
+	margin-top: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #009900;
+}
+
+.sidenav{
+	text-decoration: underline;	
+}
+
+.photo {
+	float: right;
+	width: 300px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+h1 {
+	color: #4e29a4;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+h3 {
+	color: #248000;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	clear: both;
+}
+
+body{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	background-color:  #FFD797;
+}
+
+a:link {
+	color: #374234;
+}
+
+.caption {
+	color: #645493;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 10pt;
+	font-style: italic;
+}
+
+a:visited {
+	color: #d97e01;
+}
+
+a:hover {
+	color: #faf181;
+	text-decoration: none;
+}
+
+a:active {
+	color: #cd7f1d;
+}
+
+.caption_right {
+	width: 300px;
+	float: right;
+	color: #645493;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-style: italic;
+	font-size: 10pt;
+	font-weight: normal;
+	font-variant: normal;

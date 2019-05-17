@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+	
+	
+	
+<link href="../style/jquery.css" rel="stylesheet" type="text/css">
+<link href="../jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="../jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="../jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
+<link href="../jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<link href="../jQueryAssets/jquery.ui.datepicker.min.css" rel="stylesheet" type="text/css">
+<link href="../jQueryAssets/jquery.ui.progressbar.min.css" rel="stylesheet" type="text/css">
+<link href="../jQueryAssets/jquery.ui.slider.min.css" rel="stylesheet" type="text/css">
+<link href="../jQueryAssets/jquery.ui.button.min.css" rel="stylesheet" type="text/css">
+<script src="../../jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="../../jQueryAssets/jquery.ui-1.10.4.accordion.min.js"></script>
+<script src="../../jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+<script src="../../jQueryAssets/jquery.ui-1.10.4.datepicker.min.js"></script>
+<script src="../../jQueryAssets/jquery.ui-1.10.4.progressbar.min.js"></script>
+<script src="../../jQueryAssets/jquery.ui-1.10.4.slider.min.js"></script>
+<script src="../../jQueryAssets/jquery.ui-1.10.4.button.min.js"></script>
+</head>
+
+<body>
+<div id="Accordion1">
+  <h3><a href="#">2015</a></h3>
+  <div>
+    <p>State</p>
+    <p>Federal </p>
+  </div>
+  <h3><a href="#">2016</a></h3>
+  <div>
+    <p>State</p>
+    <p>Federal </p>
+  </div>
+  <h3><a href="#">2017</a></h3>
+  <div>
+    <p>State</p>
+    <p>Federal </p>
+  </div>
+</div>
+
+<div class="mainmain" id="mainmain"></div>
+<p>&nbsp; </p>
+<p>&nbsp;</p>
+<div id="Tabs1">
+  <ul>
+    <li><a href="#tabs-1">2105</a></li>
+    <li><a href="#tabs-4">2108</a></li>
+    <li><a href="#tabs-2">2016</a></li>
+    <li><a href="#tabs-3">2107</a></li>
+  </ul>
+  <div id="tabs-1">
+    <p>Content 1</p>
+  </div>
+  <div id="tabs-4">
+    <p>Content 4</p>
+  </div>
+  <div id="tabs-2">
+    <p>Content 2</p>
+  </div>
+  <div id="tabs-3">
+    <p>Content 3</p>
+  </div>
+</div>
+<p>&nbsp; </p>
+<p>
+  <input type="text" id="Datepicker1">
+</p>
+<div id="Progressbar1"></div>
+<p>&nbsp; </p>
+<p>&nbsp; </p>
+<div id="Slider1"></div>
+<p>&nbsp; </p>
+<div id="Buttonset1">
+  <button id="Button1">Label1</button>
+  <button id="Button2">Label2</button>
+  <button id="Button3">Label3</button>
+</div>
+<p>&nbsp; </p>
+<div id="Checkboxes1">
+  <input type="checkbox" id="Checkbox1">
+  <label for="Checkbox1">Visa</label>
+  <input type="checkbox" id="Checkbox2">
+  <label for="Checkbox2">Mastercard</label>
+  <input type="checkbox" id="Checkbox3">
+  <label for="Checkbox3">Amex<br>
+  </label>
+  <div id="RadioButtons1">
+    <input type="radio" name="RadioButtons1" id="Radio1">
+    <label for="Radio1">well priced</label>
+    <input type="radio" name="RadioButtons1" id="Radio2">
+    <label for="Radio2">fast shipping</label>
+    <input type="radio" name="RadioButtons1" id="Radio3">
+    <label for="Radio3">nice on the phone</label>
+  </div>
+</div>
+<p>&nbsp; </p>
+
+<p>&nbsp; </p>
+<video width="1000" height="800" controls ></video>
+<audio width="1000" controls ></audio>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<script type="text/javascript">
+$(function() {
+	$( "#Accordion1" ).accordion({
+		event:"mouseover"
+	}); 
+});
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+$(function() {
+	$( "#Datepicker1" ).datepicker({
+		minDate:4,
+		maxDate:66,
+		numberOfMonths:3
+	}); 
+});
+$(function() {
+	$( "#Progressbar1" ).progressbar({
+		value:20
+	}); 
+});
+$(function() {
+	$( "#Slider1" ).slider(); 
+});
+$(function() {
+	$( "#Buttonset1" ).buttonset(); 
+});
+$(function() {
+	$( "#Checkboxes1" ).buttonset(); 
+});
+$(function() {
+	$( "#RadioButtons1" ).buttonset(); 
+});
+  </script>
+</body>
+</html>
